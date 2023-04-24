@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: violet;
+    /*background: rgb(224,144,238);*/
+    background: linear-gradient(90deg, rgba(224,144,238,1) 21%, rgba(111,3,129,1) 85%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,14 +21,13 @@ body {
 }
 
 .search-box {
+    display:inline-block;
     position: absolute;
-    height: 30px;
-    border-radius: 2rem;
     border: 0;
     padding: 10px 10px;
-    height: 2.3rem;
-    width: 2.3rem;
-    transition: all 0.4s;
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: all 1s;
 }
 
 input:focus,
@@ -38,25 +38,27 @@ input[type]:focus {
 }
 
 .search-icon {
-    height: 1.1rem;
-    width: 1.1rem;
+    /*height: 2.5rem;*/
+    /*width: 2.5rem;*/
     top: 0;
 
     padding: 10px 10px;
     background-color: #ffff;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     cursor: pointer;
 }
 
 .mySearch {
+    display: flex;
     padding: 10px 10px;
-    width: 250px;
-    background-color: #dbdbdb;
+    width: 15rem;
+    /*background-color: #dbdbdb;*/
     position: relative;
-    inset: 0px 45px;
+    height: 2.5rem;
 
 }
 
 .myIcon {
     background-color: transparent;
+    margin-left: -38px;
 }
